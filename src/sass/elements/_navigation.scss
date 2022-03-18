@@ -1,0 +1,57 @@
+.custom-navigation {
+  box-shadow: 0px 3px 6px $color-grey;
+}
+
+.custom-logo {
+  color: $color-primary;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.custom-nav-link {
+  color: $color-grey;
+  border-bottom: 4px solid $color-white;
+  transition: 0.2s;
+  letter-spacing: 3px;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-black;
+    border-bottom: 4px solid $color-primary;
+    cursor: pointer;
+  }
+}
+
+.custom-line1,
+.custom-line2,
+.custom-line3 {
+  width: 23px;
+  height: 3px;
+  margin: 5px;
+  transition: 0.2s;
+}
+.custom-line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.custom-line2 {
+  opacity: 0;
+}
+.custom-line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.collapsed .custom-line1 {
+  transform: none;
+}
+.collapsed .custom-line2 {
+  opacity: 1;
+}
+.collapsed .custom-line3 {
+  transform: none;
+}
+
+.custom-btn:focus {
+  box-shadow: none !important;
+}
