@@ -3,7 +3,7 @@ import { Link as LinkScroll } from "react-scroll";
 
 export default function Navigation() {
   return (
-    <div className="custom-navigation fixed-top">
+    <div className="custom-navigation fixed-top bg-white">
       <nav className="container navbar py-0 navbar-expand-lg">
         <div className="display-6 ms-3 ms-md-0 custom-logo">BestShop</div>
         <button
