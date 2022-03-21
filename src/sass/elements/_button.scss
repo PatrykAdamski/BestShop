@@ -1,0 +1,22 @@
+.custom-btn {
+  outline: none;
+  border: none;
+  color: $color-white;
+  border-radius: 30px;
+  padding: 20px 60px;
+  &:hover {
+    filter: brightness(90%);
+  }
+}
+.custom-btn-blue {
+  background-color: $color-primary;
+  box-shadow: 5px 10px 14px #07ace629;
+}
+.custom-btn-red {
+  background-color: $color-redish;
+  box-shadow: 5px 10px 14px #07ace629;
+}
+.custom-btn-green {
+  background-color: $color-green;
+  box-shadow: 5px 10px 14px #07ace629;
+}

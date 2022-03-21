@@ -1,0 +1,14 @@
+.custom-headerBackground {
+  background-image: url(../../assets/Background.png);
+  background-position: bottom center;
+  background-size: 220% 70%;
+  background-repeat: no-repeat;
+  @include tablet {
+    margin-top: 100px;
+    background-size: cover;
+  }
+}
+.custom-introBtn {
+  color: #fff;
+  background-color: $color-primary;
+}
