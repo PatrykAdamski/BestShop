@@ -16,7 +16,7 @@ export default function HomeBenefits() {
           </div>
           <div className="custom-container-benefit">
             <h3 className="m-4">Be always first</h3>
-            <p className="m-4">
+            <p className="custom-line-red m-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
@@ -34,7 +34,7 @@ export default function HomeBenefits() {
           </div>
           <div className="custom-container-benefit">
             <h3 className="m-4">Your shop is where you are!</h3>
-            <p className="m-4">
+            <p className="custom-line-blue m-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
@@ -45,7 +45,7 @@ export default function HomeBenefits() {
         <div className="custom-container-benefit-trumpet d-lg-flex flex-lg-row align-items-lg-center">
           <div className="bg-white p-3 my-5 my-lg-0 mb-0 d-lg-flex flex-lg-column justify-content-lg-center  custom-container-benefit-trumpet">
             <h3 className="m-4">Increase recognition your brand!</h3>
-            <p className="m-4">
+            <p className="custom-line-green m-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
