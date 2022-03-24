@@ -1,0 +1,33 @@
+.custom-form-input {
+  border: none;
+  border-bottom: 2px solid $color-grey;
+  outline: none;
+  &:focus {
+    border-bottom-color: $color-primary;
+  }
+}
+.custom-contact-text {
+  color: $color-grey;
+}
+.custom-form-text {
+  color: $color-primary;
+}
+.custom-form-checkbox::before {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  border: 2px solid $color-grey;
+  border-radius: 10px;
+}
+input[type="checkbox"]:checked + label::before {
+  background-image: url(../../assets/Checkmark.svg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.custom-form {
+  @include large {
+    width: 40%;
+  }
+}

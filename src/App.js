@@ -1,5 +1,6 @@
 import React from "react";
 import HomeBenefits from "./components/HomeBenefits";
+import HomeContact from "./components/HomeContact";
 import HomeHeader from "./components/HomeHeader";
 import HomePricing from "./components/HomePricing";
 import HomeStatistics from "./components/HomeStatistics";
@@ -13,6 +14,7 @@ export default function App() {
       <HomeStatistics></HomeStatistics>
       <HomeBenefits></HomeBenefits>
       <HomePricing></HomePricing>
+      <HomeContact></HomeContact>
     </div>
   );
 }
