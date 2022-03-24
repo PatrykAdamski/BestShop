@@ -69,3 +69,26 @@
     height: 330px;
   }
 }
+
+.custom-line-red,
+.custom-line-blue,
+.custom-line-green {
+  &::after {
+    @include large {
+      content: "";
+      width: 70%;
+      height: 4px;
+      display: block;
+      margin-top: 40px;
+    }
+  }
+}
+.custom-line-red::after {
+  background-color: $color-redish;
+}
+.custom-line-blue::after {
+  background-color: $color-primary;
+}
+.custom-line-green::after {
+  background-color: $color-green;
+}
