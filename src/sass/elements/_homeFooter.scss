@@ -1,0 +1,17 @@
+.custom-footer {
+  box-shadow: 0px -5px 40px #00000029;
+}
+.custom-footer-copyright {
+  color: $color-grey;
+}
+.custom-icon-social {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+}
+.custom-icon-twitter {
+  background-image: url(../../assets/Twitter.svg);
+}
+.custom-icon-facebook {
+  background-image: url(../../assets/Facebook.svg);
+}
