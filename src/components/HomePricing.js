@@ -1,7 +1,7 @@
 import React from "react";
 import SinglePriceComponent from "./SinglePriceComponent";
 import Carousel from "react-elastic-carousel";
-import { offers } from "../data/PricingOffer";
+import { offers } from "../data/Offers";
 
 export default function HomePricing() {
   const breakPoints = [

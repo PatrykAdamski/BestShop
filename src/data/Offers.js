@@ -1,8 +1,10 @@
+import { prices } from "../data/Prices";
+
 export const offers = [
   {
     id: Math.random(),
     title: "Basic",
-    price: 0,
+    price: prices.package.basic,
     isLimitedOffer: false,
     howMuchSpace: "100 MB HDD",
     subdomain: "1 Subdomain",
@@ -16,7 +18,7 @@ export const offers = [
   {
     id: Math.random(),
     title: "BasicPlus",
-    price: 10,
+    price: prices.package.basicPlus,
     isLimitedOffer: false,
     howMuchSpace: "200 MB HDD",
     subdomain: "1 Subdomain",
@@ -31,7 +33,7 @@ export const offers = [
   {
     id: Math.random(),
     title: "Professional",
-    price: 25,
+    price: prices.package.professional,
     isLimitedOffer: true,
     howMuchSpace: "500 MB HDD",
     subdomain: "2 Subdomains",
@@ -46,7 +48,7 @@ export const offers = [
   {
     id: Math.random(),
     title: "Premium",
-    price: 60,
+    price: prices.package.premium,
     isLimitedOffer: true,
     howMuchSpace: "2 GB HDD",
     subdomain: "5 Subdomains",
@@ -60,7 +62,7 @@ export const offers = [
   {
     id: Math.random(),
     title: "PremiumPlus",
-    price: 80,
+    price: prices.package.premiumPlus,
     isLimitedOffer: true,
     howMuchSpace: "5 GB HDD",
     subdomain: "20 Subdomains",

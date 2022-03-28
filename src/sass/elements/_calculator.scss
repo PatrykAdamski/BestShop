@@ -1,0 +1,62 @@
+.custom-section-calculator {
+  background-color: $color-light-grey;
+  font-family: $font-secondary;
+}
+
+.custom-calculator-input {
+  border: 1px solid $color-primary;
+  outline: none;
+  border-radius: 7px;
+  height: 40px;
+  color: $color-grey;
+  padding-left: 20px;
+  background-color: $color-white;
+}
+.custom-calculator-checkbox {
+  color: $color-grey;
+}
+.custom-summary-block {
+  background-color: $color-green;
+  border-radius: 7px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.custom-select {
+  cursor: pointer;
+}
+.custom-select::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+  background-image: url(../../assets/Arrow.svg);
+  background-size: contain;
+  transition: 0.2s;
+}
+.select-active.custom-select::after {
+  transform: rotate(180deg);
+}
+.custom-total-block {
+  background-color: $color-primary;
+  border-radius: 7px;
+  box-shadow: 0px 3px 6px #00000029;
+  width: 200px;
+}
+
+.custom-select-dropdown {
+  display: none;
+  border: 1px solid $color-redish;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.fieldVisible.custom-select + .custom-select-dropdown {
+  display: block;
+}
+.fieldVisible {
+  display: flex;
+}
+.custom-container-form-calc {
+  @include large {
+    width: 40%;
+  }
+}
