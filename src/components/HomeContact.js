@@ -45,7 +45,7 @@ export default function HomeContact() {
           </label>
           <div className="d-flex mt-4">
             <input id="agreement" type="checkbox"></input>
-            <label for="agreement" className="custom-form-checkbox"></label>
+            <label htmlFor="agreement" className="custom-form-checkbox"></label>
             <span className="custom-contact-text ms-3 mb-3">
               I hereby give consent for my personal data included in my
               application to be processed for the purposes of the recruitment
