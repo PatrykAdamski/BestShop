@@ -71,7 +71,7 @@ export default function Calculator() {
 
   return (
     <section className="container-fluid custom-section-calculator px-2 py-4 p-sm-5">
-      <h2 className="display-4 text-center fw-normal">
+      <h2 className="display-4 text-center fw-normal py-lg-4">
         Calculate how much you'll pay
       </h2>
       <div className="p-3 d-lg-flex justify-content-lg-evenly">

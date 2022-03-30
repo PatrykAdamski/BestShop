@@ -33,7 +33,7 @@ export default function CalculatorListSummary({
           <span className="fw-bold text-white fs-4">$ {summaryOrders}</span>
         </div>
       ) : null}
-      {packageValue !== "choose package" ? (
+      {packageValue !== "Choose package" ? (
         <div
           data-id="package"
           className="d-flex justify-content-between align-items-center custom-summary-block py-1 px-3 mb-3"
@@ -63,7 +63,7 @@ export default function CalculatorListSummary({
           <span className="fw-bold text-white fs-4">$ {terminalValue}</span>
         </div>
       ) : null}
-      {total !== 0 || packageValue !== "choose package" ? (
+      {total !== 0 || packageValue !== "Choose package" ? (
         <div
           data-id="total"
           className=" align-self-end d-flex justify-content-between align-items-center custom-total-block py-1 px-3 my-4"

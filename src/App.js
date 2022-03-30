@@ -1,4 +1,5 @@
 import React from "react";
+import { Element } from "react-scroll/modules";
 import Calculator from "./components/Calculator";
 import HomeBenefits from "./components/HomeBenefits";
 import HomeContact from "./components/HomeContact";
@@ -12,12 +13,29 @@ export default function App() {
   return (
     <div className="container-fluid gx-0">
       <Navigation></Navigation>
-      <HomeHeader></HomeHeader>
+
+      <Element name="HomeHeader">
+        <HomeHeader></HomeHeader>
+      </Element>
+
       <HomeStatistics></HomeStatistics>
-      <HomeBenefits></HomeBenefits>
-      <HomePricing></HomePricing>
-      <Calculator></Calculator>
-      <HomeContact></HomeContact>
+
+      <Element name="HomeBenefits">
+        <HomeBenefits></HomeBenefits>
+      </Element>
+
+      <Element name="HomePricing">
+        <HomePricing></HomePricing>
+      </Element>
+
+      <Element name="HomeCalculator">
+        <Calculator></Calculator>
+      </Element>
+
+      <Element name="HomeContact">
+        <HomeContact></HomeContact>
+      </Element>
+
       <HomeFooter></HomeFooter>
     </div>
   );

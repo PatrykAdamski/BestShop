@@ -23,12 +23,51 @@ export default function Navigation() {
           className="collapse navbar-collapse navbar-nav text-uppercase justify-content-end bg-white"
           id="navbarSupportedContent"
         >
-          <LinkScroll className="px-4 py-4 custom-nav-link">Why us</LinkScroll>
-          <LinkScroll className="px-4 py-4 custom-nav-link">
+          <LinkScroll
+            to="HomeHeader"
+            duration={250}
+            spy={true}
+            smooth={true}
+            className="px-4 py-4 custom-nav-link"
+          >
+            Start
+          </LinkScroll>
+          <LinkScroll
+            to="HomeBenefits"
+            duration={250}
+            spy={true}
+            smooth={true}
+            className="px-4 py-4 custom-nav-link"
+          >
             Benefits
           </LinkScroll>
-          <LinkScroll className="px-4 py-4 custom-nav-link">Prices</LinkScroll>
-          <LinkScroll className="px-4 py-4 custom-nav-link">Contact</LinkScroll>
+          <LinkScroll
+            to="HomePricing"
+            duration={250}
+            spy={true}
+            smooth={true}
+            className="px-4 py-4 custom-nav-link"
+          >
+            Prices
+          </LinkScroll>
+          <LinkScroll
+            to="HomeCalculator"
+            duration={250}
+            spy={true}
+            smooth={true}
+            className="px-4 py-4 custom-nav-link"
+          >
+            Calculator
+          </LinkScroll>
+          <LinkScroll
+            to="HomeContact"
+            duration={250}
+            spy={true}
+            smooth={true}
+            className="px-4 py-4 custom-nav-link"
+          >
+            Contact
+          </LinkScroll>
         </ul>
       </nav>
     </div>
