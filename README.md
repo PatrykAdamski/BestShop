@@ -1,3 +1,27 @@
+# TrackSeries
+
+## Overview
+
+BestShop is a landing page with bootstrap.
+
+## Technologies
+
+* JavaScript
+* React && hooks
+* Sass
+* Bootstrap
+
+## Hosting
+
+You can see this project [here](https://62540ac10e435b4c7e19a76b--mellifluous-gecko-9b95b7.netlify.app/)
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
